@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a803b6fd.chunk.css",
+    "main.js": "/static/js/main.12d53fa2.chunk.js",
+    "main.js.map": "/static/js/main.12d53fa2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cce81162.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cce81162.js.map",
+    "static/js/2.be4f46d9.chunk.js": "/static/js/2.be4f46d9.chunk.js",
+    "static/js/2.be4f46d9.chunk.js.map": "/static/js/2.be4f46d9.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.bf6c2d118d163d96170555b3bf96c543.js": "/precache-manifest.bf6c2d118d163d96170555b3bf96c543.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.a803b6fd.chunk.css.map": "/static/css/main.a803b6fd.chunk.css.map",
+    "static/js/2.be4f46d9.chunk.js.LICENSE.txt": "/static/js/2.be4f46d9.chunk.js.LICENSE.txt",
+    "static/media/apple.png": "/static/media/apple.a56d1339.png",
+    "static/media/avatar1.png": "/static/media/avatar1.a2d15caa.png",
+    "static/media/avatar2.jpeg": "/static/media/avatar2.8db05240.jpeg",
+    "static/media/bars.svg": "/static/media/bars.f4e64106.svg",
+    "static/media/bootstrap-feature.svg": "/static/media/bootstrap-feature.2fca69b6.svg",
+    "static/media/dots.svg": "/static/media/dots.f8ea5dda.svg",
+    "static/media/laptop.jpeg": "/static/media/laptop.05f9bc6d.jpeg",
+    "static/media/microsoft.png": "/static/media/microsoft.64cc8c4f.png",
+    "static/media/puff.svg": "/static/media/puff.41430010.svg",
+    "static/media/react-feature.svg": "/static/media/react-feature.d39764fe.svg",
+    "static/media/responsive-feature.svg": "/static/media/responsive-feature.3a6289fc.svg",
+    "static/media/sass-feature.svg": "/static/media/sass-feature.ef06be68.svg",
+    "static/media/spin.svg": "/static/media/spin.74e1c3ee.svg",
+    "static/media/vibe-logo.svg": "/static/media/vibe-logo.d65d6b8d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cce81162.js",
+    "static/js/2.be4f46d9.chunk.js",
+    "static/css/main.a803b6fd.chunk.css",
+    "static/js/main.12d53fa2.chunk.js"
+  ]
+}

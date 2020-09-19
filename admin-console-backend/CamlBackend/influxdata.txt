@@ -1,0 +1,17 @@
+INSERT social_distance_violation,space_id=3 violation_seconds=15,person1_id=12,person2_id=5
+INSERT social_distance_violation,space_id=1 violation_seconds=15,person1_id=13,person2_id=7
+select * from social_distance_violation where space_id='3'
+
+INSERT density_change,space_id=3 current_density=12
+INSERT density_change,space_id=1 current_density=12
+select * from density_change where space_id='1';
+
+
+INSERT density_limit_violation,space_id=3 max_density_limit=10,current_density=12
+INSERT density_limit_violation,space_id=3 max_density_limit=10,current_density=12
+select * from density_limit_violation where space_id='3';
+
+
+INSERT people_activity,space_id=3,activity="entered_space" person_id=12
+INSERT people_activity,space_id=3,activity="exited_space" person_id=12
+select * from people_activity where space_id='3';

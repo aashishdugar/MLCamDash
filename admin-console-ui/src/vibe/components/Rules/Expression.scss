@@ -1,0 +1,159 @@
+
+//============= Create/Update Styling=============
+.ptsexpression{
+    display: inline-block;
+    // display:gird;
+    width:95%;
+    height: auto;
+    font-size: 0.8em;
+    margin:auto;
+    margin-top: 1em;
+    padding:0.5em;
+    align-content: center;
+    align-items: center;
+    border:1px solid rgb(126, 121, 121);
+    background:rgb(199, 132, 132) !important;
+    box-shadow: 2px 2px 2px rgb(71, 70, 70);
+   
+    border-radius: 1em;
+}
+
+.expressionbutton{
+    // display: 'flex';
+    display:gird;
+    width:100% !important;
+    font-size: small !important;
+    min-height: 1.5rem;
+    max-width: 5rem;
+    // margin-left: 30%;
+    padding: 0px;
+    color: #fff !important;
+    background: rgb(7, 46, 25) !important;
+    
+}
+
+.expressionlable{
+    color: white !important;
+    font-size: small !important;
+    font-weight: 500;
+}
+.expressioninput{
+    width: 100%;
+    // display: inline-flex;
+    display:gird;
+    font-size: small !important;
+    min-height: 2.5rem;
+    max-width: 15rem;
+    border:1px solid rgb(109, 106, 106) !important;
+    box-shadow: 2px 2px 2px rgb(71, 70, 70) !important;
+
+}
+
+.expressionrow{
+    // display: flex;
+    display:gird;
+    width: 100% !important;
+    display: inline-flex;
+    padding: 0.5rem !important;
+    font-size: small !important;
+    text-align: center;
+    margin-top: 1em;
+    padding:0.5em;
+}
+
+.expressionselect{
+    display:gird;
+    width:100% !important;
+    font-size: small !important;
+    max-width: 15rem;
+    padding: 0em !important ;
+    align-content: center;
+    border:1px solid rgb(109, 106, 106) !important;
+    box-shadow: 2px 2px 2px rgb(71, 70, 70);
+}
+
+
+.ptsexpressionview{
+    display:gird;
+    width:100% !important;
+    font-size: inherit !important;
+    justify-content: 'space-between';
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.8em;
+    text-align: center;
+    box-shadow: 3px 3px 3px #9ea0a3;
+}
+
+.ptsexpressionviewlable{
+    width:90% !important;
+    font-size: inherit !important;
+    align-self: center;
+    // display: inline-block;
+    display:gird;
+    padding-bottom: 10px;
+    font-size: small !important;
+    text-align: center;
+    color: #fff !important;
+    background: rgb(194, 70, 70) !important;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 3px 4px rgba(0, 0, 0, 0.24);
+    border: 1px solid gray;
+}
+
+//============= View Styling=============
+
+.newexpression{
+    margin-bottom: 1em;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 3px 4px rgba(0, 0, 0, 0.24);
+}
+.expressionview{
+    display: inline-block;
+    // display:gird;
+    width:95%;
+    height: auto;
+    word-wrap: break-word;
+    font-size: 0.8em;
+    margin:auto;
+    // margin-top: 0.5em;
+    // margin-bottom: 0.5em;
+    min-height: 3em;
+    // width: max-content;
+    // align-content: center;
+    // align-items: center;
+    text-align: center;
+    // border:1px solid rgb(126, 121, 121);
+    background:rgb(199, 132, 132) !important;
+    box-shadow: 2px 2px 2px rgb(71, 70, 70);
+    // border-radius: 0.2em;
+}
+.ptsexpressionIcon {
+    // display: block;
+    display:gird;
+    color: #fff;
+    font-size: small;
+    align-items: center;
+    float: right;
+    margin:0.3em ;
+    cursor: pointer;
+  }
+
+.expressionviewheader{
+    // display: inline-block;
+    display:gird;
+    width: 100%;
+    color: #fff;
+    height:2em;
+    background: black;
+    // box-shadow: 1px 1px 1px white;
+}
+
+.ptsexpressionlable{
+    width: 100%;
+    // display: inline-block;
+    display:gird;
+    margin-top: 1 em !important;
+    margin-bottom: 0.5em;
+    font-size: small;
+    color:white !important;
+    width:100%;
+}

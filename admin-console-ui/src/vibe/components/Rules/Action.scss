@@ -1,0 +1,150 @@
+//============= Create/Update Styling=============
+.ptsaction{
+    // display: inline-block;
+    display: grid;  
+    grid-template-columns: repeat(auto-fit, 100px);
+    grid-template-rows: repeat(2, 100px);  
+    width:95%;
+    height: auto;
+    font-size: 0.8em;
+    margin:0px;
+    padding:0.5em;
+    align-content: center;
+    align-items: center;
+    border:1px solid rgb(126, 121, 121);
+    background:rgb(187, 174, 241) !important;
+    box-shadow: 2px 2px 2px rgb(71, 70, 70);
+    border-radius: 1em;
+}
+
+.actionbutton{
+    // display: 'flex';
+    display:grid;
+    width:100% !important;
+    font-size: small !important;
+    min-height: 1.5rem;
+    max-width: 5rem;
+    margin-left: 30%;
+    padding: 0px;
+    color: #fff !important;
+    background: rgb(7, 46, 25) !important;
+    
+}
+
+.actionlable{
+    color: white !important;
+    font-size: small !important;
+    font-weight: 500;
+}
+.actioninput{
+    width: 100%;
+    display:grid;
+    // display: inline-flex;
+    font-size: small !important;
+    max-height: 1.5rem;
+    max-width: 15rem;
+    border:1px solid rgb(109, 106, 106) !important;
+    box-shadow: 2px 2px 2px rgb(71, 70, 70) !important;
+
+}
+
+.actionrow{
+    // display: flex;
+    display: grid;  
+    
+    grid-template-columns: repeat(auto-fit, 100px);
+    width: 100% !important;
+    // display: inline-flex;
+    padding: 0.5rem !important;
+    font-size: small !important;
+    text-align: center;
+    
+}
+
+.actionselect{
+    width:100% !important;
+    font-size: small !important;
+    max-width: 15rem;
+    padding: 0em !important ;
+    align-content: center;
+    border:1px solid rgb(109, 106, 106) !important;
+    box-shadow: 2px 2px 2px rgb(71, 70, 70);
+}
+
+
+.ptsactionview{
+    width:100% !important;
+    font-size: inherit !important;
+    justify-content: 'space-between';
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.8em;
+    text-align: center;
+    box-shadow: 3px 3px 3px #9ea0a3;
+}
+
+.ptsactionviewlable{
+    width:90% !important;
+    font-size: inherit !important;
+    align-self: center;
+    // display: inline-block;
+    display:grid;
+    padding-bottom: 10px;
+    font-size: small !important;
+    text-align: center;
+    color: #fff !important;
+    background: rgb(194, 70, 70) !important;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 3px 4px rgba(0, 0, 0, 0.24);
+    border: 1px solid gray;
+}
+
+//============= View Styling=============
+.newaction{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 3px 4px rgba(0, 0, 0, 0.24);
+    margin-bottom: 1em;
+}
+.actionview{
+    // display: inline-block;
+    display:table;
+    width:95%;
+    height: auto;
+    font-size: 0.8em;
+    margin:auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    align-content: center;
+    align-items: center;
+    // width:max-content;
+    border:1px solid rgb(126, 121, 121);
+    background:rgb(187, 174, 241) !important;
+    box-shadow: 2px 2px 2px rgb(71, 70, 70);
+    border-radius: 0.2em;
+}
+.ptsactionIcon {
+    // display: block;
+    display:gird;
+    color: #fff;
+    font-size: small;
+    align-items: center;
+    float: right;
+    margin:0.3em ;
+    cursor: pointer;
+  }
+
+.actionviewheader{
+    display:gird;
+    width: 100%;
+    color: #fff;
+    height:2em;
+    background:dimgray;
+    // box-shadow: 1px 1px 1px white;
+    text-align: center;
+}
+
+.ptsactionlable{
+    width: 100%;
+    // display: inline-block;
+    display:gird;
+    color:black !important;
+    width:100%;
+}
